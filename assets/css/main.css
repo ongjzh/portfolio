@@ -1747,3 +1747,18 @@ input, select, textarea {
 		border-color: rgba(255,255,255,0.3);
 		box-shadow: 0 0 20px rgba(255,255,255,0.15);
 	}
+
+	.pdf-container {
+		width: 100%;
+		margin: 0 auto;
+		aspect-ratio: 8.5 / 12;
+		overflow: hidden;
+		border-radius: 12px;
+	}
+
+	.pdf-container iframe {
+		width: 100%;
+		height: 100%;
+		border: none;
+		overflow: hidden;
+	}
