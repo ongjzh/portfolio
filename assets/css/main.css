@@ -1747,3 +1747,25 @@ input, select, textarea {
 		border-color: rgba(255,255,255,0.3);
 		box-shadow: 0 0 20px rgba(255,255,255,0.15);
 	}
+
+	.pdf-wrapper {
+		width: 100%;
+		max-width: 1000px;
+		margin: auto;
+		aspect-ratio: 8.5 / 11;
+		border-radius: 12px;
+		overflow: hidden;
+	}
+
+	.pdf-wrapper iframe {
+		width: 100%;
+		height: 100%;
+		border: none;
+		display: block;
+	}
+
+	@media (max-width: 768px) {
+		.pdf-wrapper {
+			aspect-ratio: 1 / 1.35;
+		}
+	}
