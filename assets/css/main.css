@@ -1750,10 +1750,9 @@ input, select, textarea {
 
 	.pdf-container {
 		width: 100%;
+		height:100dvh;
 		margin: 0 auto;
-		aspect-ratio: 8.5 / 12;
 		overflow: hidden;
-		border-radius: 12px;
 	}
 
 	.pdf-container iframe {
