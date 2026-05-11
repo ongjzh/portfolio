@@ -1750,9 +1750,8 @@ input, select, textarea {
 
 	.pdf-wrapper {
 		width: 100%;
-		max-width: 1000px;
 		margin: auto;
-		aspect-ratio: 8.5 / 11;
+		aspect-ratio: 20 / 9;
 		border-radius: 12px;
 		overflow: hidden;
 	}
@@ -1762,10 +1761,4 @@ input, select, textarea {
 		height: 100%;
 		border: none;
 		display: block;
-	}
-
-	@media (max-width: 768px) {
-		.pdf-wrapper {
-			aspect-ratio: 1 / 1.35;
-		}
 	}
