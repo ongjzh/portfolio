@@ -1748,15 +1748,26 @@ input, select, textarea {
 		box-shadow: 0 0 20px rgba(255,255,255,0.15);
 	}
 
-	.pdf-container {
-		width: 100%;
-		margin: 0 auto;
-		overflow: hidden;
-	}
+.pdf-container {
+	width: 100%;
+	height: 140vw;
+	max-height: 1400px;
+	min-height: 600px;
+	overflow: hidden;
+	position: relative;
+	border-radius: 12px;
+}
 
-	.pdf-container iframe {
-		width: 100%;
-		height: 100%;
-		border: none;
-		overflow: hidden;
-	}
+.pdf-container iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+
+	width: 125%;
+	height: 125%;
+
+	border: none;
+
+	transform: scale(0.8);
+	transform-origin: top left;
+}
