@@ -1750,7 +1750,7 @@ input, select, textarea {
 
 	.pdf-container {
 		width: 100%;
-		height:100dvh;
+		height: 48vw;
 		margin: 0 auto;
 		overflow: hidden;
 	}
