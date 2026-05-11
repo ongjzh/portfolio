@@ -1748,17 +1748,14 @@ input, select, textarea {
 		box-shadow: 0 0 20px rgba(255,255,255,0.15);
 	}
 
-	.pdf-wrapper {
+	.resume-container {
 		width: 100%;
 		margin: auto;
-		aspect-ratio: 20 / 9;
-		border-radius: 12px;
-		overflow: hidden;
 	}
 
-	.pdf-wrapper iframe {
+	.resume-container img {
 		width: 100%;
-		height: 100%;
-		border: none;
+		height: auto;
 		display: block;
+		border-radius: 12px;
 	}
