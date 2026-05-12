@@ -1750,7 +1750,7 @@ input, select, textarea {
 
 	.pdf-wrapper {
 		width: 100%;
-		height: 110vh;
+		height: 105vh;
 		overflow: hidden;
 	}
 
@@ -1763,8 +1763,8 @@ input, select, textarea {
 
 	@media screen and (max-width: 736px) {
 		.pdf-wrapper {
-			width: 100%;
-			height: 110vh;
+			width: 150%;
+			height: 150%;
 			transform: scale(0.5);
 			transform-origin: top left;
 		}
