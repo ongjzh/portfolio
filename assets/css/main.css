@@ -1750,12 +1750,13 @@ input, select, textarea {
 
 	.pdf-wrapper {
 		width: 100%;
-		display: block;
-		margin: 2.5rem 0;
+		aspect-ratio: 8.5 / 11; /* paper ratio */
+		max-height: 100vh;
+		object-fit: cover;
 	}
 
 	.pdf-wrapper iframe {
 		width: 100%;
-		aspect-ratio: 8.5 / 11;
-		object-fit: cover;
+		height: 100%;
+		border: none;
 	}
